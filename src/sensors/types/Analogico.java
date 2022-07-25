@@ -1,7 +1,7 @@
-package sensors;
+package sensors.types;
 
 public class Analogico extends Tipo {
-    Analogico(int id, String name){
+    public Analogico(int id, String name){
         super(id, name);
     }
 

@@ -1,3 +1,5 @@
+import boards.Board;
+import boards.BoardAntar;
 import herramientas.Llave;
 import recipientes.Tinaco;
 
@@ -15,4 +17,9 @@ public class Factory {
     public void crearTinaco(){
         new Tinaco();
     }
+
+    protected Board createAntarBoard(){
+        return new BoardAntar();
+    }
+
 }

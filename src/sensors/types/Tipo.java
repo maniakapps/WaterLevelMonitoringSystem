@@ -1,4 +1,4 @@
-package sensors;
+package sensors.types;
 
 import java.util.Objects;
 

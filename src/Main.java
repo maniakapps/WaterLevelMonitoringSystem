@@ -2,9 +2,11 @@ import sensors.Agua;
 import sensors.Sensor;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
        System.out.println("Water level monitoring system. MAPC");
-
+        Sistema sistema = new Sistema();
+        sistema.iniciar();
+        sistema.apagar();
 
     }
 }

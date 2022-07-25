@@ -1,4 +1,6 @@
 package sensors;
+import sensors.types.Tipo;
+
 import java.io.*;
 
 public abstract class Sensor implements Closeable

@@ -1,5 +1,8 @@
 package sensors;
 
+import sensors.types.Analogico;
+import sensors.types.Tipo;
+
 public class Agua extends Sensor {
 
     public Agua(int id, String name, String modelo){
